@@ -15,6 +15,11 @@ Environment=JWT_SECRET=replaceme
 Environment=DATABASE_USER=replaceme
 Environment=DATABASE_PASSWORD=replaceme
 
+Environment=DATABASE_HOST=localhost		#Default value
+Environment=DATABASE_PORT=3306			#Default value
+Environment=DATABASE_NAME=kotatsu_db	#Default value
+Environment=ALLOW_NEW_REGISTER=true		#Default value, change this to 'false' after register your account if you don't want anybody to use your syncserver
+
 ExecStart=java -jar kotatsu-syncserver-0.0.1-all.jar
 
 [Install]
