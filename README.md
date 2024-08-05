@@ -62,7 +62,7 @@ In case you don't want others to use your instance, register your accounts then 
 
 ### Systemd
 Requirements:
-- JDK 11+
+- JDK 11 (JDK 21 won't work)
 - Gradle 7.0+
 
 Commands:
